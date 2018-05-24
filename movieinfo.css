@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: black;
+	font-family: Exo;
+}
+
+p {
+	font-size: 16px;
+	color: white;
+}
+
+h4 {
+	margin-bottom: 20px;
+}
+
+img{
+	width: 100%;
+	margin-bottom: 20px;
+	
+}
+
+
+.thumbnail {
+	margin: 5.0%;
+	color: white;
+	background: rgba(35,35,35, 0.2);
+	padding: 20px;
+	border-radius: 25px;
+	box-shadow: 10px 10px 10px rgba(66,149,244, 0.2);
+	min-height: 400px;
+}
+
+@media(min-width:1000px){
+
+.thumbnail {
+	height: 600px;
+}
+
+.thumbnail img{
+height: 400px;
+}
+}
+
+.jumbotron {
+	background: #232323;
+	text-align: center;
+	margin-top: 20%;
+	transition: 0.5s all;
+}
+
+#search {
+	width: 100%;
+	outline: none;
+	border: none;
+	height: 50px;
+	font-size: 32px;
+	font-family: Source Code Pro;
+	font-weight: 400;
+	border-radius: 5px;
+}
+
+#film{
+	width: 150px;
+	height: 75px;
+}
+
+#info {
+	color: #4295f4;
+}
+
+.title{
+	transition: 0.5s all;
+	color: white;
+	font-size: 3.5em;
+	letter-spacing: 3px;
+	font-weight: 700;
+}
